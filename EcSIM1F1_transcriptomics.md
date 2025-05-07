@@ -1,7 +1,7 @@
 # Transcriptomics of _E. coli_ K-12 MG1655 (MAGE)
 
 ## 1. Bacterial strains and conditions
-+ _Escherichia coli_ K-12 MG1655 containing _mut_S::pRED-1 in genome (EcSIM1F) and RBS mutataion upstream of _crp_ and _fis_ (EcSIM1F1).
++ _Escherichia coli_ K-12 MG1655 containing _mutS_::pRED-1 in genome (EcSIM1F) and RBS mutataion upstream of _crp_ and _fis_ (EcSIM1F1).
 + Both strains contain two plasmids pFABT and pBbB6k_tesA.  
 3 replicates of EcSIM1F and EcSIM1F1 were cultured in M9 medium.  
 

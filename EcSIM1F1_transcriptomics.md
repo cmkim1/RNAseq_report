@@ -8,7 +8,7 @@
 ## 2. Library preparation & Sequencing
 + RNA QC: RIN of all RNA samples were higher than 7.0. Quantity and Quality of RNA were verified with Qubit fluorometer and Nanodrop.
 + Library prep: Zymo-Seq RiboFree® Total RNA Library Kit (Zymo Research).
-+ Sequencing: MiSeq, Reagent V3 (300 PE)
++ Sequencing: Illumina MiSeq, Reagent V3 (300 PE)
 + Actual yield: 17.37GB
 + % PF: 91.69%
 + % >= Q30: 77.58%

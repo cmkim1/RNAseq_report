@@ -69,5 +69,5 @@ alpha/beta hydrolase | 3.53 | 1.44E-09
 bifunctional nicotinamidase/pyrazinamidase | 3.83 | 1.71E-09
 
 
-### 4.2. Top 10 KEGG Pathway Enrichment  
+### 4.2. KEGG Pathway Enrichment  
 <img src = "https://github.com/user-attachments/files/20752442/KEGG_enrichment.pdf" width = "80%" height = "80%">

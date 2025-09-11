@@ -36,15 +36,27 @@ All processes were conducted in Galaxy server.
 + DEG analysis: edgeR (Galaxy Version 3.36.0+galaxy5)
 
 
-## 4.1 DEGs 
+## 4.1 DEGs  
+Genes without more than 1 CPM in at least 6 samples are insignificant and filtered out.  
+638 of 4579 (13.93%) genes were filtered out for low expression.  
+TMM was the method used to normalise library sizes.  
   
-
 ### 4.1.1. MDS
 MDS visualization of CPM  
 All statistical analysis were conducted in R.  
 
 <img src = "https://github.com/user-attachments/files/22257877/DimentionReductionPlots.pdf" width = "55%" height = "55%">
 
-### 4.1.2. DEG table
+### 4.1.2. DEG table (Mix-CO)  
 
-### 4.2. KEGG Pathway Enrichment  
+### 4.2. KEGG Pathway Enrichment (Mix-CO)  
+Pathways involved with CO fixation and butyrate synthesis are shown.  
+All statistical analyssi were conducted in R.  
+Pathways were colored in [KEGG webpage](https://www.kegg.jp).
++ Other carbon metabolism (including Wood Ljungdahl pathway)  
+<img src = "https://github.com/user-attachments/files/22266743/kegg_othercarbon_metabolism_wlp.pdf" width = "100%" height = "80%">
+  
++ Butanocate metabolism (including butyrate synthesis)  
+<img src = "https://github.com/user-attachments/files/22266735/kegg_butanoate_metabolism.pdf" width = "100%" height = "68%">
+
+

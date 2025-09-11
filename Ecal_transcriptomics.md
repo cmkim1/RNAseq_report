@@ -36,27 +36,56 @@ All processes were conducted in Galaxy server.
 + DEG analysis: edgeR (Galaxy Version 3.36.0+galaxy5)
 
 
-## 4.1 DEGs  
+## 4. DEGs  
 Genes without more than 1 CPM in at least 6 samples are insignificant and filtered out.  
 638 of 4579 (13.93%) genes were filtered out for low expression.  
 TMM was the method used to normalise library sizes.  
   
-### 4.1.1. MDS
+### 4.1. MDS
 MDS visualization of CPM  
 All statistical analysis were conducted in R.  
 
-<img src = "https://github.com/user-attachments/files/22257877/DimentionReductionPlots.pdf" width = "55%" height = "55%">
+<img src = "https://github.com/user-attachments/files/22257877/DimentionReductionPlots.pdf">
 
-### 4.1.2. DEG table (Mix-CO)  
+### 4.2. DEG table (Mix-CO)  
+Top 10 up & down regulated genes in Mix compared to CO (FDR < 0.05).
+Locus tag | logFC | FDR | Product | KEGG No.
+--- | --- | --- | --- | ---
+ELI_0615 | 9.4 | 1.91E-06 | hypothetical protein | NA
+ELI_2466 | 8.2 | 6.90E-06 | hypothetical protein | NA
+ELI_2462 | 8 | 1.92E-06 | hypothetical protein | NA
+ELI_0879 | 8 | 4.63E-06 | hypothetical protein | K03310
+ELI_2465 | 7.7 | 1.67E-06 | hypothetical protein | K02783
+ELI_0616 | 7.6 | 2.72E-06 | Cna B domain protein | NA
+ELI_2464 | 7.6 | 1.72E-06 | hypothetical protein | K02782
+ELI_0894 | 7.6 | 4.09E-06 | trimethylamine methyltransferase | NA
+ELI_2463 | 7.5 | 6.40E-06 | hypothetical protein | K02781
+ELI_0600 | 7.4 | 2.00E-06 | hypothetical protein | NA
+ELI_3123 | -5 | 0.001 | hypothetical protein | NA
+ELI_3134 | -4.8 | 0.006 | hypothetical protein | NA
+ELI_3129 | -4.5 | 0.010 | hypothetical protein | NA
+ELI_3122 | -4.4 | 0.002 | hypothetical protein | NA
+ELI_0570 | -4.4 | 3.42E-04 | hypothetical protein | NA
+ELI_3121 | -4.2 | 0.002 | hypothetical protein | NA
+ELI_3120 | -4.1 | 0.002 | hypothetical protein | NA
+ELI_3293 | -4.1 | 1.89E-04 | transglycosylase associated protein | NA
+ELI_3294 | -4 | 0.001 | hypothetical protein | NA
+ELI_3130 | -4 | 0.002 | Phage-related protein | K00558
+  
 
-### 4.2. KEGG Pathway Enrichment (Mix-CO)  
+
+### 4.3. KEGG Pathway Enrichment (Mix-CO)  
+All statistical analysis and visualizations were conducted in R.  
++ KEGG pathway enrichment analysis
+<img src = "https://github.com/user-attachments/files/22268213/KEGGenrichment.pdf" width = "70%" height = "60%">
+
 Pathways involved with CO fixation and butyrate synthesis are shown.  
-All statistical analyssi were conducted in R.  
-Pathways were colored in [KEGG webpage](https://www.kegg.jp).
+Pathways were colored in [KEGG webpage](https://www.kegg.jp).  
+
 + Other carbon metabolism (including Wood Ljungdahl pathway)  
 <img src = "https://github.com/user-attachments/files/22266743/kegg_othercarbon_metabolism_wlp.pdf" width = "100%" height = "80%">
   
-+ Butanocate metabolism (including butyrate synthesis)  
++ Butanoate metabolism (including butyrate synthesis)  
 <img src = "https://github.com/user-attachments/files/22266735/kegg_butanoate_metabolism.pdf" width = "100%" height = "68%">
 
 

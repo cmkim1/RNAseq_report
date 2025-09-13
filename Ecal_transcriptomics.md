@@ -45,7 +45,7 @@ TMM was the method used to normalise library sizes.
 MDS visualization of CPM  
 All statistical analysis were conducted in R.  
 
-<img src = "https://github.com/user-attachments/files/22257877/DimentionReductionPlots.pdf">
+<img src = "https://github.com/user-attachments/assets/f5b4a164-8188-453c-83b7-69b48cb0a1ef" width = "42%" height = "49%">
 
 ### 4.2. DEG table (Mix-CO)  
 Top 10 up & down regulated genes in Mix compared to CO (FDR < 0.05).
@@ -77,15 +77,16 @@ ELI_3130 | -4 | 0.002 | Phage-related protein | K00558
 ### 4.3. KEGG Pathway Enrichment (Mix-CO)  
 All statistical analysis and visualizations were conducted in R.  
 + KEGG pathway enrichment analysis
-<img src = "https://github.com/user-attachments/files/22268213/KEGGenrichment.pdf" width = "70%" height = "60%">
+<img src = "https://github.com/user-attachments/assets/34c626d7-01f4-49ce-ae5c-1a43cd34477e" width = "70%" height = "60%">
+  
 
 Pathways involved with CO fixation and butyrate synthesis are shown.  
 Pathways were colored in [KEGG webpage](https://www.kegg.jp).  
 
 + Other carbon metabolism (including Wood Ljungdahl pathway)  
-<img src = "https://github.com/user-attachments/files/22266743/kegg_othercarbon_metabolism_wlp.pdf" width = "100%" height = "80%">
+<img src = "https://github.com/user-attachments/assets/906d8ef0-077b-41c8-b995-b2c98edace81" width = "100%" height = "80%">
   
 + Butanoate metabolism (including butyrate synthesis)  
-<img src = "https://github.com/user-attachments/files/22266735/kegg_butanoate_metabolism.pdf" width = "100%" height = "68%">
+<img src = "https://github.com/user-attachments/assets/19cc8cc8-1178-4cf1-a2a7-f24a7906e9b2" width = "100%" height = "68%">
 
 
